@@ -22,6 +22,17 @@ React (if used)	Component-based UI
 Firebase	Backend & Authentication
 GitHub Pages	Deployment
 
+## 🛠️ Tech Stack
+
+| Technology              | Usage             |
+| ----------------------- | ----------------- |
+| React.js                | Frontend UI       |
+| Firebase                | Backend & Hosting |
+| Firebase Auth           | Authentication    |
+| Firestore / Realtime DB | Database          |
+| CSS / Tailwind          | Styling           |
+
+
 storage/
 │── public/
 │── src/
