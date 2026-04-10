@@ -1,75 +1,43 @@
-# 🚀 CloudVault
+📦 Storage Web App
 
-CloudVault is a modern web application designed to securely store, manage, and access user data in the cloud. It provides a smooth user experience with authentication, real-time updates, and a responsive interface.
-
-## ✨ Features
-
-* 🔐 Secure Authentication (Google / Email & Password)
-* ☁️ Cloud Storage Integration
-* ⚡ Fast and Responsive UI
-* 🔄 Real-time Data Sync
-* 📱 Mobile-friendly Design
-
-## 🛠️ Tech Stack
-
-* Frontend: React.js
-* Backend: Firebase
-* Authentication: Firebase Auth
-* Database: Firestore / Realtime Database
-* Hosting: GitHub Pages / Firebase Hosting
-
-## 📦 Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/cloudvault.git
-```
-
-2. Navigate to project folder:
-
-```bash
-cd cloudvault
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
-
-## 🔧 Configuration
-
-* Create a Firebase project
-* Add your Firebase config in `.env` file
-* Enable Authentication (Google / Email)
-* Setup Firestore or Realtime Database
-
-## 🚀 Deployment
-
-You can deploy using:
-
-* GitHub Pages
-* Firebase Hosting
-
-## 📸 Screenshots
-
-(Add screenshots here)
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repo and submit a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
+A modern web-based storage application that allows users to securely upload, manage, and access their files anytime, anywhere.
 💡 Developed with ❤️ by Pawan
+🚀 Live Demo
+
+🔗 View Project: Add your GitHub Pages link here
+(e.g., https://pawanyadav3714.github.io/storage/
+
+✨ Features
+🔐 User Authentication (Firebase)
+📤 Upload and store files
+📂 Manage and organize files
+⚡ Fast and responsive UI
+🌐 Fully deployed on GitHub Pages
+🔒 Secure cloud storage integration
+
+🛠️ Tech Stack
+Technology	Usage
+HTML / CSS / JS	Frontend UI
+React (if used)	Component-based UI
+Firebase	Backend & Authentication
+GitHub Pages	Deployment
+
+storage/
+│── public/
+│── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│── index.html
+│── package.json
+│── vite.config.js
+
+🔥 Firebase Configuration
+Go to Firebase Console
+Create a new project
+Enable Authentication:
+Google Sign-in
+Email/Password
+Add your domain in Authorized Domains
+Copy Firebase config and paste into your project
